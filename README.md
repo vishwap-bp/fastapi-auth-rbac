@@ -50,7 +50,6 @@ Errors follow the identical shape with `"status": false` and the relevant `statu
 
 ```bash
 pip install fastapi-auth-rbac
-# or: git clone <this-repo> auth/ && pip install -r auth/requirements.txt
 
 cp .env.example .env   # fill in your values
 alembic upgrade head   # run migrations
